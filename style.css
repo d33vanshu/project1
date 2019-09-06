@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color:lightgrey;
+}
+
+h1{
+    font-size: 3em;
+    padding: 15px;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+div{
+    border: 1px solid lightgrey;
+    padding: 15px;
+    border-radius: 1em;
+    /* border-c: lightgrey; */
+}
