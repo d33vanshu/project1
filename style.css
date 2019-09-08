@@ -1,13 +1,49 @@
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: grey;
+}
+
+#navbar{
+    display: grid;
+    min-height: 30px;
+    grid-auto-flow: column;
+    background-color: lightgrey;
+    grid-gap:20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#logo{
+    display: grid;
+    justify-content: start;
+    align-content: center;
+    color: black;
+    font-size: 25px;
+}
+
+#link{
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap:20px;
+    font-size: 20px;
+}
+
 body{
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
     color:lightgrey;
 }
 
-h1{
+/* h1{
     font-size: 3em;
     padding: 15px;
-}
+    color: black;
+} */
 
 h3{
     font-size: 1.5em;
@@ -15,7 +51,12 @@ h3{
 
 div{
     border: 1px solid lightgrey;
-    padding: 15px;
+
     border-radius: 1em;
     /* border-c: lightgrey; */
 }
+
+.pad{
+    padding:15px;
+}
+
